@@ -9,7 +9,7 @@ import os
 app = Flask(__name__)
 
 
-IMG_FOLDER = os.path.join(GRAPH_DIR)
+IMG_FOLDER =  os.path.join(GRAPH_DIR)
 
 app.config['UPLOAD_FOLDER'] = IMG_FOLDER
 # plot = Arima_Plots()

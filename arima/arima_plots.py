@@ -29,7 +29,7 @@ class Arima_Plots:
         rolling_std = self.df.rolling(7).std()
         plt.plot(self.df, color='blue',label='Original Passenger Data')
         plt.plot(rolling_mean, color='red', label='Rolling Mean Passenger Number')
-        plt.plot(rolling_std, color='black', label = 'Rolling Standard Deviation in Passenger Number')
+        plt.plot(rolling_std, color= 'black', label = 'Rolling Standard Deviation in Passenger Number')
         plt.legend(loc='best');
         plt.savefig(os.path.join(GRAPH_DIR, 'rolling_values.png'))
         logger.info('rolling values plot done')

@@ -23,7 +23,7 @@ class Arima_Train:
 
     def get_data(self):
         self.df = pd.read_csv(self.data_path)
-        self.df['Month'] = pd.to_datetime(self.df['Month'], format='%Y-%m')
+        self.df['Month'] = pd.to_datetime(self.df['Month'],  format='%Y-%m')
         logger.info('Data is ready for training')
     
 
