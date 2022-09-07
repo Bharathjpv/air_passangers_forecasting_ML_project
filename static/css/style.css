@@ -1,0 +1,51 @@
+.heading {
+    display: flex;
+    font-size: xx-large;
+    background-color: aqua;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    
+   
+    
+}
+.button {
+    text-align: center;
+    height: 30vh;
+    font-size: larger;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;
+    background-color: orange;
+}
+label {
+    color: blue;
+}
+
+.header {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    font-size: large;
+}
+table {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+}
+tr{
+    background-color: #fff;
+}
+.plot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+}
